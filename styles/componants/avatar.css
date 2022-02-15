@@ -1,0 +1,35 @@
+.avatar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.avatar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sm-avatar {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: 2px solid var(--red-color);
+}
+
+.md-avatar {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: 2px solid var(--red-color);
+}
+
+.lg-avatar {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: 2px solid var(--red-color);
+}

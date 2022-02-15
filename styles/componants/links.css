@@ -1,0 +1,41 @@
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.4rem 0.7rem;
+  font-size: xx-large;
+  margin: 0.3rem;
+  color: var(--myColor);
+  border: 1px solid var(--myColor);
+  border-radius: 25rem;
+}
+
+.link:hover {
+  color: rgb(136, 255, 175);
+}
+
+.link-btn {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.4rem 0.7rem;
+  font-size: xx-large;
+  margin: 0.3rem;
+  color: orangered;
+  border: 1px solid red;
+  border-radius: 25rem;
+}
+
+.link-btn:hover {
+  background-color: royalblue;
+  transition: 0.3s;
+}
+
+.link-line {
+  font-size: xx-large;
+}

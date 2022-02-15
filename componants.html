@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="componants.css">
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="/">
+  <link rel="stylesheet" href="/styles/root.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="icon" href="img/paper-boat .png">
+  <title>PaperBoat-UI</title>
+</head>
+
+<body>
+  <header class="nav-heading">
+    <nav class="topnav">
+      <h1 id="nav-heading-title">PaperBoat-UI</h1>
+      <div class="topnav-icons">
+        <a class="icon-topnav-link" href="https://github.com/mohitrakhade11"><img id="icon" src="/img/github-round.png"
+            alt=""></a>
+        <a class="icon-topnav-link" href="https://twitter.com/MohitRakhade5"><img id="icon"
+            src="/img/linkedin-round.png" alt=""></a>
+        <a class="icon-topnav-link" href="https://www.linkedin.com/in/mohit-rakhade-154146209/"><img id="icon"
+            src="/img/twitter-round.png" alt=""></a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="main-container">
+    <div id="component-list-container">
+      <ul>
+        <li><img class="animated-img" src="/img/paper-boat.gif" alt=""></li>
+        <li class="compo-scroll-list fs-xl"><a href="#avatar" class="style-anchor-list">Avatar</a></li>
+        <li class="compo-scroll-list fs-xl"><a href="#alert" class="style-anchor-list">Alert</a></li>
+        <li class="compo-scroll-list fs-xl"><a href="#buttons" class="style-anchor-list">buttons</a></li>
+        <li class="compo-scroll-list fs-xl"><a href="#badges" class="style-anchor-list"> Badged</a></li>
+        <li class="compo-scroll-list fs-xl"><a href="#link" class="style-anchor-list">Links</a>
+        </li>
+        <li class="compo-scroll-list fs-xl"><a href="#product-card" class="style-anchor-list"> card's</a> </li>
+        <li class="compo-scroll-list fs-xl"><a href="/text-utilities/utilities.html"
+            class="style-anchor-list">Utilities</a></li>
+        <li class="compo-scroll-list fs-xl"><a href="#chips" class="style-anchor-list">chips</a> </li>
+        <li class="compo-scroll-list fs-xl"><a href="#model"
+            class="style-anchor-list">model</a></li>
+        <li class="compo-scroll-list fs-xl"><a href="#inputs" class="style-anchor-list">Input</a></li>
+        <li class="compo-scroll-list fs-xl"><a href="#list" class="style-anchor-list">List</a></li>
+        <li class="compo-scroll-list fs-xl"><a href="#toast" class="style-anchor-list">Toast</a></li>
+        <li class="compo-scroll-list fs-xl"><a href="#rating" class="style-anchor-list">Ratings</a></li>
+      </ul>
+      </ul>
+    </div>
+    <div class="component-data-display-container">
+      <div class="main-content">
+        <h1 id="title">Get started</h1>
+        <h1 class="title" id="avatar">avatar</h1>
+        <div class="avatar container-border">
+          <span><img class="sm-avatar" src="/img/myAvatar.png"></span>
+          <span><img class="md-avatar" src="/img/myAvatar.png"></span>
+          <span><img class="lg-avatar" src="/img/myAvatar.png"></span>
+        </div>
+        <hr>
+        <div class="container-border iframe-container">
+          <iframe 
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=none&l=auto&width=640&ds=true&dsyoff=0px&dsblur=0px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Monoid&fs=12.5px&lh=134%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Cimg%2520class%253D%2522sm-avatar%2522%2520src%253D%2522%252Fimg%252FmyAvatar.png%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Cimg%2520class%253D%2522md-avatar%2522%2520src%253D%2522%252Fimg%252FmyAvatar.png%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Cimg%2520class%253D%2522lg-avatar%2522%2520src%253D%2522%252Fimg%252FmyAvatar.png%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+            style="width: 640px; height: 176px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <iframe class="mobile-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=none&l=auto&width=350&ds=false&dsyoff=0px&dsblur=0px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Monoid&fs=12.5px&lh=134%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Cimg%2520class%253D%2522sm-avatar%2522%2520src%253D%2522%252Fimg%252FmyAvatar.png%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Cimg%2520class%253D%2522md-avatar%2522%2520src%253D%2522%252Fimg%252FmyAvatar.png%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Cimg%2520class%253D%2522lg-avatar%2522%2520src%253D%2522%252Fimg%252FmyAvatar.png%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+            style="width: 350px; height: 176px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+
+        <h1 class="title" id="alert">Alert</h1>
+        <div id="alert" class="alert-container container-border">
+          <div class="alert-success space-between alert">this is success alert!<span class="close-btn">&times</span>
+          </div>
+          <div class="alert-info space-between alert">this is an info alert! <span class="close-btn">&times</span>
+          </div>
+          <div class="alert-warning space-between alert">this is warning alert! <span class="close-btn">&times</span>
+          </div>
+          <div class="alert-danger space-between alert">this is danger alert! <span class="close-btn">&times</span>
+          </div>
+        </div>
+        <div class="container-border iframe-container">
+          <iframe class="iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=none&l=auto&width=640&ds=true&dsyoff=0px&dsblur=0px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Monoid&fs=12.5px&lh=134%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-success%2520space-between%2520alert%2522%253Ethis%2520is%2520success%2520alert%21%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522close-btn%2522%253E%2526times%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-info%2520space-between%2520alert%2522%253Ethis%2520is%2520an%2520info%2520alert%21%2520%253Cspan%2520class%253D%2522close-btn%2522%253E%2526times%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-warning%2520space-between%2520alert%2522%253Ethis%2520is%2520warning%2520alert%21%2520%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522close-btn%2522%253E%2526times%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-danger%2520space-between%2520alert%2522%253Ethis%2520is%2520danger%2520alert%21%2520%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522close-btn%2522%253E%2526times%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="width: 640px; height: 244px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <iframe class="mobile-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=none&l=auto&width=350&ds=true&dsyoff=0px&dsblur=0px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Monoid&fs=12.5px&lh=134%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-success%2520space-between%2520alert%2522%253Ethis%2520is%2520success%2520alert%21%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522close-btn%2522%253E%2526times%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-info%2520space-between%2520alert%2522%253Ethis%2520is%2520an%2520info%2520alert%21%2520%253Cspan%2520class%253D%2522close-btn%2522%253E%2526times%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-warning%2520space-between%2520alert%2522%253Ethis%2520is%2520warning%2520alert%21%2520%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522close-btn%2522%253E%2526times%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-danger%2520space-between%2520alert%2522%253Ethis%2520is%2520danger%2520alert%21%2520%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522close-btn%2522%253E%2526times%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="width: 350px; height: 343px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h1 class="title" id="buttons">buttons</h1>
+        <div class="buttons container-border">
+          <a href="something" class="button7 button-blue">Login</a>
+          <a href="something" class="button7 button-gray">Register</a>
+        </div>
+        <div class="container-border iframe-container">
+          <iframe class="iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=none&l=auto&width=640&ds=true&dsyoff=0px&dsblur=0px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Monoid&fs=12.5px&lh=134%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522something%2522%2520class%253D%2522button7%2520button-blue%2522%253ELogin%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522something%2522%2520class%253D%2522button7%2520button-gray%2522%253ERegister%253C%252Fa%253E"
+            style="width: 640px; height: 110px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <iframe class="mobile-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=none&l=auto&width=350&ds=true&dsyoff=0px&dsblur=0px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Monoid&fs=12.5px&lh=134%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522something%2522%2520class%253D%2522button7%2520button-blue%2522%253ELogin%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522something%2522%2520class%253D%2522button7%2520button-gray%2522%253ERegister%253C%252Fa%253E"
+            style="width: 350px; height: 110px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h1 id="title">buttons Outlined</h1>
+        <div class="button-outlined container-border">
+          <button class="button button2">Blue</button>
+          <button class="button button3">Red</button>
+          <button class="button button1">Green</button>
+        </div>
+        <div class="container-border iframe-container">
+          <iframe class="mobile-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=none&l=auto&width=350&ds=true&dsyoff=0px&dsblur=0px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Monoid&fs=12.5px&lh=134%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522something%2522%2520class%253D%2522button7%2520button-blue%2522%253ELogin%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522something%2522%2520class%253D%2522button7%2520button-gray%2522%253ERegister%253C%252Fa%253E"
+            style="width: 350px; height: 110px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <iframe class="iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=none&l=auto&width=640&ds=true&dsyoff=0px&dsblur=0px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Monoid&fs=12.5px&lh=134%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522something%2522%2520class%253D%2522button7%2520button-blue%2522%253ELogin%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522something%2522%2520class%253D%2522button7%2520button-gray%2522%253ERegister%253C%252Fa%253E"
+            style="width: 640px; height: 110px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h1 class="title">Hoverable Buttons</h1>
+        <div class="btn-hover container-border">
+          <button class="button-hover button-hover-1">Green</button>
+          <button class="button-hover button-hover-2">Blue</button>
+          <button class="button-hover button-hover-3">Red</button>
+        </div>
+        <div class="container-border iframe-container">
+          <iframe class="iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=none&l=auto&width=640&ds=true&dsyoff=0px&dsblur=0px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Monoid&fs=12.5px&lh=134%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button-hover%2520button-hover-1%2522%253EGreen%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-hover%2520button-hover-2%2522%253EBlue%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-hover%2520button-hover-3%2522%253ERed%253C%252Fbutton%253E"
+            style="width: 640px; height: 126px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <iframe class="mobile-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=none&l=auto&width=350&ds=true&dsyoff=0px&dsblur=0px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Monoid&fs=12.5px&lh=134%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button-hover%2520button-hover-1%2522%253EGreen%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-hover%2520button-hover-2%2522%253EBlue%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-hover%2520button-hover-3%2522%253ERed%253C%252Fbutton%253E"
+            style="width: 350px; height: 126px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h1 class="title" id="badges">badges</h1>
+        <div id="badges" class="badges container-border">
+          <h3>
+            badge-primary <span class="badge-badge badge-primary">badge-primary</span>
+          </h3>
+          <h3>
+            badge-success <span class="badge-badge badge-success">badge-success</span>
+          </h3>
+          <h3>
+            badge-warning <span class="badge-badge badge-warning">badge-warning</span>
+          </h3>
+          <h3>
+            badge-danger <span class="badge-badge badge-danger">badge-danger</span>
+          </h3>
+        </div>
+        <div class="container-border iframe-container">
+          <iframe class="iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=none&l=auto&width=640&ds=true&dsyoff=0px&dsblur=0px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Monoid&fs=12.5px&lh=134%25&si=false&es=2x&wm=false&code=%253Ch3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520.badge-primary%2520%253Cspan%2520class%253D%2522badge-badge%2520badge-primary%2522%253Ebadge-primary%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520.badge-success%2520%253Cspan%2520class%253D%2522badge-badge%2520badge-success%2522%253Ebadge-success%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520.badge-warning%2520%253Cspan%2520class%253D%2522badge-badge%2520badge-warning%2522%253Ebadge-warning%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520.badge-danger%2520%253Cspan%2520class%253D%2522badge-badge%2520badge-danger%2522%253Ebadge-danger%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh3%253E"
+            style="width: 640px; height: 293px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <iframe class="mobile-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=none&l=auto&width=350&ds=true&dsyoff=0px&dsblur=0px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Monoid&fs=12.5px&lh=134%25&si=false&es=2x&wm=false&code=%253Ch3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520.badge-primary%2520%253Cspan%2520class%253D%2522badge-badge%2520badge-primary%2522%253Ebadge-primary%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520.badge-success%2520%253Cspan%2520class%253D%2522badge-badge%2520badge-success%2522%253Ebadge-success%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520.badge-warning%2520%253Cspan%2520class%253D%2522badge-badge%2520badge-warning%2522%253Ebadge-warning%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520.badge-danger%2520%253Cspan%2520class%253D%2522badge-badge%2520badge-danger%2522%253Ebadge-danger%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh3%253E"
+            style="width: 350px; height: 360px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h1 class="title" id="link">Link</h1>
+        <div class="links container-border">
+          <a href="" class="link">link</a>
+          <a href="" class="link-line">link line</a>
+          <a href="" class="link-btn">link hover</a>
+        </div>
+        <div class="container-border iframe-container">
+          <iframe class="iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=none&l=auto&width=640&ds=true&dsyoff=0px&dsblur=0px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Monoid&fs=12.5px&lh=134%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2522%2520class%253D%2522link%2522%253Elink%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522link-line%2522%253Elink%2520line%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522link-btn%2522%253Elink%2520hover%253C%252Fa%253E"
+            style="width: 640px; height: 110px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <iframe class="mobile-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=material&wt=none&l=auto&width=350&ds=true&dsyoff=0px&dsblur=0px&wc=false&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Monoid&fs=12.5px&lh=134%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2522%2520class%253D%2522link%2522%253Elink%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522link-line%2522%253Elink%2520line%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522link-btn%2522%253Elink%2520hover%253C%252Fa%253E"
+            style="width: 350px; height: 110px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h1 class="title" id="product-card">product card</h1>
+        <div class="product-card-container container-border">
+          <div class="product-card">
+            <div class="badge">19%off</div>
+            <div class="product-tumb">
+              <img src="/img/book.jpg" alt="">
+            </div>
+            <div class="product-details">
+              <span class="product-catagory"> <b>catagory-</b> Women,bag</span>
+              <h4><a href="">Dylan Thomas</a></h4>
+              <p>Collection of ledgandry poems by Dylan Thomas</p>
+              <div class="product-bottom-details">
+                <div class="product-price"><small>₹96.00</small>₹612.50</div>
+                <div class="product-links">
+                  <a href=""><i class="bi bi-suit-heart"></i></a>
+                  <a href=""><i class="bi bi-cart-check"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-border iframe-container">
+          <iframe class="iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522product-card-container%2520container-border%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E19%2525off%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-tumb%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimg%252Fbook.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-catagory%2522%253E%2520%253Cb%253Ecatagory-%253C%252Fb%253E%2520Women%252Cbag%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253E%253Ca%2520href%253D%2522%2522%253EDylan%2520Thomas%253C%252Fa%253E%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ECollection%2520of%2520ledgandry%2520poems%2520by%2520Dylan%2520Thomas%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-bottom-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-price%2522%253E%253Csmall%253E%25E2%2582%25B996.00%253C%252Fsmall%253E%25E2%2582%25B9612.50%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-links%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522bi%2520bi-suit-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522bi%2520bi-cart-check%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="width: 680px; height: 446px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <iframe class="mobile-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=350&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522product-card-container%2520container-border%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E19%2525off%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-tumb%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimg%252Fbook.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-catagory%2522%253E%2520%253Cb%253Ecatagory-%253C%252Fb%253E%2520Women%252Cbag%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253E%253Ca%2520href%253D%2522%2522%253EDylan%2520Thomas%253C%252Fa%253E%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ECollection%2520of%2520ledgandry%2520poems%2520by%2520Dylan%2520Thomas%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-bottom-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-price%2522%253E%253Csmall%253E%25E2%2582%25B996.00%253C%252Fsmall%253E%25E2%2582%25B9612.50%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-links%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522bi%2520bi-suit-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522bi%2520bi-cart-check%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="width: 350px; height: 688px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h1 class="title">Text only Card</h1>
+        <div class="container-text-card container-border">
+          <div class="text-card-container">
+            <div class="text-card">
+              <div class="card-header">
+                <h3>Header</h3> <span class="close-btn">&times</span>
+              </div>
+              <div class="card-body">
+                <h5>Card Title</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, consequuntur.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-border iframe-container">
+          <iframe class="iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522product-card-container%2520container-border%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E19%2525off%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-tumb%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimg%252Fbook.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522product-catagory%2522%253E%2520%253Cb%253Ecatagory-%253C%252Fb%253E%2520Women%252Cbag%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253E%253Ca%2520href%253D%2522%2522%253EDylan%2520Thomas%253C%252Fa%253E%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ECollection%2520of%2520ledgandry%2520poems%2520by%2520Dylan%2520Thomas%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-bottom-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-price%2522%253E%253Csmall%253E%25E2%2582%25B996.00%253C%252Fsmall%253E%25E2%2582%25B9612.50%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-links%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522bi%2520bi-suit-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522bi%2520bi-cart-check%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="width: 680px; height: 446px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <iframe class="mobile-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=350&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container-text-card%2520container-border%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EHeader%253C%252Fh3%253E%2520%253Cspan%2520class%253D%2522close-btn%2522%253E%2526times%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253ECard%2520Title%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Eius%252C%2520consequuntur.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="width: 350px; height: 391px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h1 class="title" id="chips">chips</h1>
+        <div class="container-close container-border">
+          <div class="close-chip close-red">Red <i class="bi bi-x-circle-fill bi-end"></i></div>
+          <div class="close-chip close-yellow">Yellow <i class="bi bi-x-circle-fill bi-end"></i></div>
+          <div class="close-chip close-green">Green <i class="bi bi-x-circle-fill bi-end"></i></div>
+          <div class="close-chip close-orange">Orange <i class="bi bi-x-circle-fill bi-end"></i></div>
+        </div>
+        <div class="container-border iframe-container">
+          <iframe class="iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=640&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522close-chip%2520close-red%2522%253ERed%2520%253Ci%2520class%253D%2522bi%2520bi-x-circle-fill%2520bi-end%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522close-chip%2520close-yellow%2522%253EYellow%2520%253Ci%2520class%253D%2522bi%2520bi-x-circle-fill%2520bi-end%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522close-chip%2520close-green%2522%253EGreen%2520%253Ci%2520class%253D%2522bi%2520bi-x-circle-fill%2520bi-end%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522close-chip%2520close-orange%2522%253EOrange%2520%253Ci%2520class%253D%2522bi%2520bi-x-circle-fill%2520bi-end%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E"
+            style="width: 640px; height: 204px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <iframe class="mobile-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=350&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522close-chip%2520close-red%2522%253ERed%2520%253Ci%2520class%253D%2522bi%2520bi-x-circle-fill%2520bi-end%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522close-chip%2520close-yellow%2522%253EYellow%2520%253Ci%2520class%253D%2522bi%2520bi-x-circle-fill%2520bi-end%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522close-chip%2520close-green%2522%253EGreen%2520%253Ci%2520class%253D%2522bi%2520bi-x-circle-fill%2520bi-end%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522close-chip%2520close-orange%2522%253EOrange%2520%253Ci%2520class%253D%2522bi%2520bi-x-circle-fill%2520bi-end%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E"
+            style="width: 350px; height: 278px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h1 class="title" id="model">Model</h1>
+        <div class="model-container container-border">
+          <p class="model">
+            <span>X</span>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, dolorem. Doloremque obcaecati fuga
+            voluptates ipsum facilis quisquam consequatur, aspernatur deserunt tempore est voluptatem ab corporis velit
+            similique molestias eveniet repudiandae aliquid maiores. Dolores obcaecati, similique aperiam veritatis
+            omnis
+            minus voluptas nostrum dolore deserunt, harum rem, ratione et ad repudiandae expedita.
+          </p>
+        </div>
+        <div class="container-border iframe-container">
+          <iframe class="iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=640&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522model-container%2520container-border%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522model%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Tempore%252C%2520dolorem.%2520Doloremque%2520obcaecati%2520fuga%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520voluptates%2520ipsum%2520facilis%2520quisquam%2520consequatur%252C%2520aspernatur%2520deserunt%2520tempore%2520est%2520voluptatem%2520ab%2520corporis%2520velit%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520similique%2520molestias%2520eveniet%2520repudiandae%2520aliquid%2520maiores.%2520Dolores%2520obcaecati%252C%2520similique%2520aperiam%2520veritatis%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520omnis%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520minus%2520voluptas%2520nostrum%2520dolore%2520deserunt%252C%2520harum%2520rem%252C%2520ratione%2520et%2520ad%2520repudiandae%2520expedita.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="width: 640px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <iframe class="mobile-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=350&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522model-container%2520container-border%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522model%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Tempore%252C%2520dolorem.%2520Doloremque%2520obcaecati%2520fuga%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520voluptates%2520ipsum%2520facilis%2520quisquam%2520consequatur%252C%2520aspernatur%2520deserunt%2520tempore%2520est%2520voluptatem%2520ab%2520corporis%2520velit%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520similique%2520molestias%2520eveniet%2520repudiandae%2520aliquid%2520maiores.%2520Dolores%2520obcaecati%252C%2520similique%2520aperiam%2520veritatis%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520omnis%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520minus%2520voluptas%2520nostrum%2520dolore%2520deserunt%252C%2520harum%2520rem%252C%2520ratione%2520et%2520ad%2520repudiandae%2520expedita.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="width: 350px; height: 427px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h1 class="title" id="inputs">Inputs</h1>
+        <div class="input container-border">
+          <h3>Input</h3>
+          <input type="name" name="name" placeholder="Name" class="input-rounded" /><br>
+          <h3>Input password</h3>
+          <input type="password" name="password" placeholder="password" class="input-rounded" />
+        </div>
+        <h1 class="title" id="list">list</h1>
+        <div class="list-container container-border">
+          <ul class="inline-list">
+            <li class="inline-item">item 1</li>
+            <li class="inline-item">item 2</li>
+            <li class="inline-item">item 2</li>
+            <li class="inline-item">item 2</li>
+          </ul>
+        </div>
+        <div class="container-border iframe-container">
+          <iframe class="iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=640&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522inline-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522inline-item%2522%253Eitem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522inline-item%2522%253Eitem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522inline-item%2522%253Eitem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522inline-item%2522%253Eitem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E"
+            style="width: 640px; height: 168px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <iframe class="mobile-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=350&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522inline-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522inline-item%2522%253Eitem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522inline-item%2522%253Eitem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522inline-item%2522%253Eitem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522inline-item%2522%253Eitem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E"
+            style="width: 350px; height: 241px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h1 id="toast" class="title">toast</h1>
+        <div class="toast-container container-border">
+          <span class="toast">You've got two new Mails <b> &times; </b></span>
+        </div>
+        <div class="container-border iframe-container">
+          <iframe class="iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=640&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522toast%2522%253EYou%27ve%2520got%2520two%2520new%2520Mails%2520%253Cb%253E%2520%2526times%253B%2520%253C%252Fb%253E%253C%252Fspan%253E"
+            style="width: 640px; height: 93px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <iframe class="mobile-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=350&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522toast%2522%253EYou%27ve%2520got%2520two%2520new%2520Mails%2520%253Cb%253E%2520%2526times%253B%2520%253C%252Fb%253E%253C%252Fspan%253E"
+            style="width: 350px; height: 93px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+        <h1 class="title" id="rating ">Ratings</h1>
+        <div class="container-border">
+          <span class="rating">4.8<i class="bi bi-star-half"></i>
+          </span>
+        </div>
+        <div class="container-border iframe-container">
+          <iframe class="iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=640&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522rating%2522%253E4.8%253Ci%2520class%253D%2522bi%2520bi-star-half%2522%253E%253C%252Fi%253E"
+            style="width: 640px; height: 93px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <iframe class="mobile-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=350&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522rating%2522%253E4.8%253Ci%2520class%253D%2522bi%2520bi-star-half%2522%253E%253C%252Fi%253E"
+            style="width: 350px; height: 93px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+      </div /*main*/> </div> </div> </body> </html>

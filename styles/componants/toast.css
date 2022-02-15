@@ -1,0 +1,8 @@
+.toast{
+    display: inline-block;
+    background-color: rgb(33, 209, 33);
+    padding: 10px;
+    font-weight:normal
+    border-radius: 5px;
+    cursor: pointer;
+}

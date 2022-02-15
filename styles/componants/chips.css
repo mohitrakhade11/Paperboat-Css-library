@@ -1,0 +1,32 @@
+.container-close {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.close-chip {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    margin: 2%;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+}
+.close-red{
+    background-color: var(--red-color);
+    color: white;
+}
+.close-yellow{
+    background-color: var(--yellow-color);
+}
+.close-green{
+    background-color:var(--green-color) ;
+}
+.close-orange{
+   background-color: var(--orange-color);
+}
