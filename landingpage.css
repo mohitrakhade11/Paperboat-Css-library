@@ -25,8 +25,9 @@
   flex-direction: row;
 }
 .content img{
-  margin-right: -30rem;
-  margin-top: -5rem;
+  height: 35rem;
+  margin-right: -33rem;
+  margin-top: -10rem;
 }
 section{
   position: relative;
