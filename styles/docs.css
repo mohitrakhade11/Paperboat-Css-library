@@ -2,9 +2,11 @@
 @import "../layout.css";
 body{
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 #title{
     color: var(--main-color);
+    margin: 3px;
 }
 .main{
     margin: 0 auto;
@@ -13,8 +15,20 @@ body{
     justify-content: center;
     align-items: center;
 }
+.footer{
+    margin-top: 7rem;
+}
+.icon{
+    color: red;
+}
+.footer a{
+    text-decoration: none;
+}
 @media only screen and (max-width: 600px) {
     .main{
         padding: 1rem;
+    }
+    .footer{
+        margin-top: 1.2rem
     }
 }
