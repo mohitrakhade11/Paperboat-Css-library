@@ -15,11 +15,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-.animated-gif{
-  height: 80px;
-  width: 80px;
-}
-
 .content{
   display: flex;
   flex-direction: row;
@@ -28,6 +23,7 @@
   height: 35rem;
   margin-right: -33rem;
   margin-top: -10rem;
+  display: block;
 }
 section{
   position: relative;
@@ -163,8 +159,17 @@ label{
 /* Responsive codes*/
 
 @media (max-width: 960px){
+.content{
+  margin: 1rem;
+  padding: 1rem;
+}
+.content img{
+  display: none;
+}
   header .navigation{
-    display: none;
+    margin-left: 10rem;
+    border: 1px solid black;
+    border-radius: 2rem;
   }
 
   label{
@@ -238,18 +243,8 @@ label{
   }
 }
 
-@media (max-width: 560px){
-  .content .info h2{
-    font-size: 35px;
-    line-height: 40px;
-  }
-
-  .content .info h2 span{
-    font-size: 30px;
-    font-weight: 600;
-  }
-
-  .content .info p{
-    font-size: 14px;
+@media only screen and (max-width: 600px) {
+  .main{
+      padding: 1rem;
   }
 }

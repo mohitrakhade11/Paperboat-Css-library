@@ -17,7 +17,7 @@
 }
 
 .link:hover {
-  color: rgb(136, 255, 175);
+  color: var(--main-color);
 }
 
 .link-btn {
@@ -26,14 +26,16 @@
   padding: 0.4rem 0.7rem;
   font-size: xx-large;
   margin: 0.3rem;
-  color: orangered;
-  border: 1px solid red;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
   border-radius: 25rem;
+  color: black;
 }
 
 .link-btn:hover {
-  background-color: royalblue;
+  background-color: var(--main-color);
   transition: 0.3s;
+  color: white;
 }
 
 .link-line {

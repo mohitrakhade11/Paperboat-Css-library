@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import "../layout.css";
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#title{
+    color: var(--main-color);
+}
+.main{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    .main{
+        padding: 1rem;
+    }
+}

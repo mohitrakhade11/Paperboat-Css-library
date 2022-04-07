@@ -2,7 +2,7 @@
 .alert-success,
 .alert-info,
 .alert-warning {
-    width: 20rem;
+    width: minmax(15rem,20rem);
     padding: 5px 40px;
     font-weight: bold;
     font-size: 20px;
@@ -57,4 +57,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    
 }
